@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande", tahoma, verdana, arial, sans-serif;
+  /* line-height: 1.28; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #3b5998;
+  color: #ffffff;
+  padding: 15px;
+}
+
+#content-j{
+  /* display: flex; */
+  flex: 40%;
+  white-space: pre-inline;
+  display: inline-block;
+  width: 399px;
+  flex-wrap: wrap;
+}
+/* h1 {
+  font-family: tahoma, verdana, arial, sans-serif;
+  font-size: 38px;
+  letter-spacing: 0.05px;
+  margin: 0;
+  /* color: #fff; */
+  -webkit-font-smoothing: antialiased;
+} */
+
+/* #navbar {
+  margin: 0 auto;
+  width: 980px;
+  height: 59px;
+}
+.navwrapper {
+  float: right;
+  margin-top: 15px;
+} */
+.row1 {
+  color: #fff;
+  font-size: 11px;
+  width: 164px;
+  cursor: pointer;
+}
+.inputtext {
+  border-color: #1d2a5b;
+  margin: 0;
+  width: 142px;
+  border: 1px solid #bdc7d8;
+  margin: 0;
+  padding: 3px;
+}
+
+.facebook{
+  flex: 60%;
+  margin: 15px;
+}
+
+#button {
+  position: relative;
+  width: 45px;
+  height: 18px;
+  background-color: #5b72a9;
+  border: 1px solid #999;
+  border-color: #8b9dc3 #2f477a #29447e #1a356e;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.connect{
+  width: 409px;
+  height: 72px;
+  padding: 42px 0 24px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px;
+  color: black;
+  display: inline-block;
+}
+
+.bo{
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizelegibility;
+  color: black;
+}
+/* .header { */
+/* display: flex; */
+/* flex-wrap: wrap; */
+/* padding: 5px; */
+/* color: #f1f1f1;
+  background-color: #3b5998; */
+/* justify-content: space-around; */
+/* } */
+
+/* .h-form{
+  align-items: flex-end;
+} */
+
+/* ::after .header{
+  flex:
+} */
+
+/* styling main content */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-side {
+  flex: 60%;
+  padding: 60px;
+}
+
+.right-side {
+  flex: 40%;
+}
+
+.small {
+  color: gray;
+}
+
+.form-b {
+  display: block;
+  width: 399px;
+}
+
+.input-b {
+  display: inline-block;
+  font-size: 18px;
+  padding: 8px 10px;
+  border: 1px solid #bdc7d8;
+  -webkit-border-radius: 5px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.bday {
+  font-size: 19px;
+  color: #141823;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 5px;
+}
+
+.in1 {
+  width: 185px;
+}
+.in2 {
+  width: 377px;
+}
+
+/* .fr {
+  flex:15%;
+} */
+.fl {
+  float: left;
+}
+
+.drop-dwn {
+  display: inline-block;
+  height: 30px;
+  font-size: 13px;
+  border: 1px solid #bdc7d8;
+  -webkit-border-radius: 5px;
+  color: #141823;
+}
+
+.fb1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.why {
+  font-size: 11px;
+  color: #3b5998;
+  width: 150px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.h:hover {
+  text-decoration: underline;
+}
+
+.mt1 {
+  font-size: 19px;
+  color: #141823;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.m0 {
+  margin: 0;
+}
+.agree {
+  font-size: 11px;
+  color: #777;
+  width: 316px;
+  margin: 11px 0 11px;
+}
+.link {
+  color: #3b5998;
+  display: inline-block;
+  cursor: pointer;
+}
+.signbut {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  background: -webkit-linear-gradient(#67ae55, #578843);
+  -webkit-box-shadow: inset 0 1px 1px #a4e388;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.signbut:hover {
+  background: -webkit-linear-gradient(#79bc64, #578843);
+}
+.bo {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizelegibility;
+  color: #fff;
+}
+
+.create {
+  border-top: 1px solid #a0a9c0;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+@media screen and (max-width:700px) {
+  .row, .header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+  }
+}
